@@ -10,13 +10,37 @@
   <script deferf src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
+      <nav class="navbar navbar-expand-lg" style="background-color: #0F172A;">
+        <div class="container-fluid">
+      <a class="navbar-brand">
+         <img src="/img/favicon64x64.ico" alt="Icone" width="30" height="24">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#portifolio">Protifólio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#entrega">Entregas</a>
+          </li>
+        </ul>
+      </div>
+        </div>
+</nav>
+  </header>
   <main>
-    <div class="container-fluid" style="background-color: #059669;">
-    <section style="background-color: #059669;">
+    <div class="container-fluid" style="background-color: #0F172A;">
+    <section id="home" style="background-color: #059669;">
         <div class="row">
           <div class="col-6"> 
            <h1>Eae...</h1>
@@ -25,11 +49,11 @@
             </p>
           </div>
           <div class="col-6">
-            <img src="img/900x400.png" alt="">
+            <img src="img/900x400.png" alt="" class="rounded-end">
           </div>
         </div>
     </section>
-    <section style="background-color: #0F172A;">
+    <section id="portifolio" style="background-color: #0F172A;">
         <h2 class="text-light">Portifólio</h2>
         <div class="row">
           <div class="col-6">
@@ -58,7 +82,7 @@
           </div>
         </div>
     </section>
-      <section style="background-color: #059669;">
+      <section id="entrega" style="background-color: #059669;">
         <h2>Entregas</h2>
         <div class="col-4">
           <figure class="figure">
